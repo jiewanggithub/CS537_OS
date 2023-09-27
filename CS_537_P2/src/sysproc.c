@@ -6,7 +6,6 @@
 #include "memlayout.h"
 #include "mmu.h"
 #include "proc.h"
-#include "stddef.h"
 
 int sys_fork(void)
 {
@@ -88,7 +87,7 @@ int sys_uptime(void)
 int sys_getlastcat(void)
 {
   char* ptr;
-  if(argptr(0,&ptr,sizeof(&ptr)) < 0 || ptr == NULL ){
+  if(argptr(0,&ptr,sizeof(&ptr)) < 0 || ptr == 0 ){
     return -1;
   }
   if (catNum == 0){
