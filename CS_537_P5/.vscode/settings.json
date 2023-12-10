@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "memlayout.h": "c",
+        "mmap.h": "c",
+        "proc.h": "c",
+        "fcntl.h": "c",
+        "sleeplock.h": "c",
+        "param.h": "c",
+        "random": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "file.h": "c",
+        "defs.h": "c"
+    }
+}
