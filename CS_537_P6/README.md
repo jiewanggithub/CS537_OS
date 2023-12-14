@@ -340,14 +340,14 @@ Please copy the following files to your `~cs537-1/handin/<cslogin>/P6/` folder.
 
 If you are working with a partner, only one student must copy the files to their handin directory.
 
-```
-proxyserver.c
-proxyserver.h
-safepqueue.c
-safepqueue.h
-Makefile
-README.md
-```
+
+- proxyserver.c
+- proxyserver.h
+- ~~safepqueue.c~~ **<span style="color:blue">safequeue.c</span>**
+- ~~safepqueue.h~~ **<span style="color:blue">safequeue.h</span>**
+- Makefile
+- README.md
+
 
 ### Further Reading and References
 
